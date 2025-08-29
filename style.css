@@ -14,7 +14,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background: url('/Assets/Food\ analyst.jpg') no-repeat center center/cover;
+    background: url('./Assets/Food\ analyst.jpg') no-repeat center center/cover;
     font-family: "Asimovian", sans-serif;
 }
 
