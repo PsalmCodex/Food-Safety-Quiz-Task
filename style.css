@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Asimovian&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('/Assets/Food\ analyst.jpg') no-repeat center center/cover;
+    font-family: "Asimovian", sans-serif;
+}
+
+.quiz-container {
+    background: rgb(34, 172, 234, 0.6);
+    box-shadow: 5px;
+    padding: 20px;
+    height: 50vh;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(97, 129, 167, 0.5);
+    align-items: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-family: "Outfit", sans-serif;
+    border-radius: 5px;
+}
+
+#next-btn {
+font-weight: 600;
+}
+
+#score-area{
+font-weight: 700;
+
+}
+
+
+button.correct {
+    background-color: green;
+    color: white;
+}
+
+button.incorrect {
+    background-color: red;
+    color: white;
+}
